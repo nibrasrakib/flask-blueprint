@@ -4,4 +4,4 @@ from flask import render_template, request, redirect, url_for
 
 @main_blueprint.route("/")
 def index():
-    return "Main Object"
+    return render_template("main/index.html")
